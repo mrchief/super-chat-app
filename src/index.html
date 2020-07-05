@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>Superclub Chat App</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <script type="application/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <div class="col col1"><div class="container channels">Channels</div></div>
+    <div class="col col2">
+      <div class="row row1">
+        <div class="container">
+          <div class="messages" id="messages"></div>
+        </div>
+      </div>
+      <div class="row row2">
+        <div class="container inputContainer">
+          <div><textarea rows="2" placeholder="Type something..." id="chatInput"></textarea></div>
+          <div><button type="button" onclick="javascript: sendMessage()">Send</button></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

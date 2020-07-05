@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  height: calc(100%-20px);
+  padding: 10px;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+.col1 {
+  width: 20%;
+}
+.col2 {
+  width: 80%;
+}
+
+.container {
+  padding: 20px;
+  height: calc(100% - 40px);
+  border: solid 1px gray;
+  border-radius: 4px;
+}
+
+.messageContainer {
+  min-height: 10%;
+}
+
+.row1 {
+  height: 80%;
+}
+
+.row2 {
+  margin-top: 10px;
+  height: 100px;
+}
+
+.channels {
+  margin-right: 10px;
+}
+
+.inputContainer {
+  display: flex;
+  flex: 1 0 auto;
+}
+
+.inputContainer button {
+  width: 56px;
+  height: 56px;
+}
+
+.inputContainer textarea {
+  height: 56px;
+  width: 90%;
+}
